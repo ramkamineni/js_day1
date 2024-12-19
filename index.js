@@ -1,18 +1,18 @@
-let nam = prompt("Enter your name");
+let u_name = prompt("Enter your name");
 let prod = prompt("Enter your product");
 let cost = prompt("Enter the cost");
 let date = prompt("Enter the day of purchase");
 let festie = prompt("Enter the occasion");
-let shopping_platform = ("Enter platform");
+let shopping = prompt("Enter platform");
 
-let obj0 =
+let obj =
 {
-    username:nam,
+    username:u_name,
     product:prod,
     cost:cost,
     day:date,
     occasion:festie,
-    platform:shopping_platform,
+    platfor:shopping,
 }
-console.log(`${obj0.username} has purchased a ${obj0.product} which costs ${obj0.cost} on ${obj0.day} on occassion of ${obj0.occasion} in ${obj0.platform}
-`)
+
+console.log(`${obj.username} has purchased a ${obj.product} which costs ${obj.cost} on ${obj.day} on occassion of ${obj.occasion} in ${obj.platfor}`)
